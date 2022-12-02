@@ -2,7 +2,7 @@
 
 const audioCtx = new AudioContext({
   latencyHint: "interactive",
-  sampleRate: 4410,
+  sampleRate: 44100,
 });
 
 
