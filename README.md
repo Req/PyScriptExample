@@ -12,4 +12,4 @@ python3 -m http.server
 Navigate browser to http://0.0.0.0:8000/
 ```
 
-At the moment, the GUI is not really connected to the sound which should produce just some noise. 
+On the GUI there are two sliders to select the main frequency and the width of the noise. 
