@@ -30,6 +30,7 @@ def plot_waveform():
     #updateChart(to_js(time), to_js(waveform))
 
     waveform = band_limited_noise(mid_freq = frequency, width_freq = width, samplerate=samplerate, duration=1)
+    print(waveform)
     updateAudio(waveform) 
 
 
