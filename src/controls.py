@@ -31,7 +31,7 @@ def plot_waveform():
 
     waveform = band_limited_noise(mid_freq = frequency, width_freq = width, samplerate=samplerate, duration=1)
     print(waveform)
-    updateAudio(waveform) 
+    updateAudio(waveform)
 
 
 proxy = create_proxy(on_range_update)
